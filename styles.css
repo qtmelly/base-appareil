@@ -13,17 +13,18 @@ body {
   width: 100%;
 }
 
-main{
+main {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
 
-.texte {
-  margin: 7% 0 0 7%;
+.group-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  gap: 10px;
   width: 60%;
-}
-
-h1 {
 }
 
 .titre1 {
@@ -36,10 +37,4 @@ h1 {
   font-size: 64px;
   font-weight: 600;
   color: var(--couleurtextemillieu);
-  gap: 20px;
-}
-
-.photo {
-  width: 40%;
-  height: 100%;
 }
