@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --couleurtextemillieu: #423a3a;
+  --couleurpetittexte: #ce9898;
+  --couleurboutton: linear-gradient(135deg, #f8bfbf 0%, #ee8b8b 100%);
+}
+
+body {
+  font-family: Josefin Sans;
+  margin: 0;
+  height: min-content;
+  width: 100%;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+.texte {
+  margin: 7% 0 0 7%;
+  width: 60%;
+}
+
+h1 {
+}
+
+.titre1 {
+  font-size: 70px;
+  color: var(--couleurpetittexte);
+  font-weight: 200;
+}
+
+.titre2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--couleurtextemillieu);
+  gap: 20px;
+}
+
+.photo {
+  width: 40%;
+  height: 100%;
+}
