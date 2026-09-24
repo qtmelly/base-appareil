@@ -38,3 +38,10 @@ main {
   font-weight: 600;
   color: var(--couleurtextemillieu);
 }
+.texte {
+  color: var(--couleurpetittexte);
+  
+}
+
+button {
+}
